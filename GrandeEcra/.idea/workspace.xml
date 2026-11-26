@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84b03968-cb5f-4065-b408-55d97d87bde6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BibliotecaFuncoes/FuncoesAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BibliotecaFuncoes/FuncoesCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BibliotecaFuncoes/MenuAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BibliotecaFuncoes/MenuCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="84b03968-cb5f-4065-b408-55d97d87bde6" name="Changes" comment="criação das funções">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BibliotecaFuncoes/FuncoesAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BibliotecaFuncoes/FuncoesAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BibliotecaFuncoes/FuncoesCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BibliotecaFuncoes/FuncoesCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BibliotecaFuncoes/MenuAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BibliotecaFuncoes/MenuAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BibliotecaFuncoes/MenuCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BibliotecaFuncoes/MenuCliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +74,15 @@
       <option name="presentableId" value="Default" />
       <updated>1795691360259</updated>
     </task>
+    <task id="LOCAL-00001" summary="criação das funções">
+      <option name="closed" value="true" />
+      <created>1795708417397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1795708417397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,5 +100,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="criação das funções" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação das funções" />
   </component>
 </project>

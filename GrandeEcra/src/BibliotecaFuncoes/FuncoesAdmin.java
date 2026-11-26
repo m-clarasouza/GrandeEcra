@@ -6,7 +6,7 @@ public class FuncoesAdmin {
 
     }
 
-    public static void vendas(){
+    public static void estatVendas(){
 
     }
 

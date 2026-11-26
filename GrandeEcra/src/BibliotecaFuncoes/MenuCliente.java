@@ -2,6 +2,8 @@ package BibliotecaFuncoes;
 
 import java.util.Scanner;
 
+import static BibliotecaFuncoes.FuncoesCliente.*;
+
 public class MenuCliente {
     public static void menuCliente() {
         Scanner input = new Scanner(System.in);
@@ -28,30 +30,37 @@ public class MenuCliente {
 
                 case 1:
                     System.out.println("Novo registro");
+                    novoRegistro();
                     break;
 
                 case 2:
                     System.out.println("Consultar cartaz cinematografico");
+                    consultarCartaz();
                     break;
 
                 case 3:
                     System.out.println("Pesquisar filmes");
+                    pesquisarFilmes();
                     break;
 
                 case 4:
                     System.out.println("Visualizar mapa de uma sala");
+                    mapaSala();
                     break;
 
                 case 5:
                     System.out.println("Reservar bilhetes");
+                    reservarBilhetes();
                     break;
 
                 case 6:
                     System.out.println("Recomendar filmes");
+                    recomendarFilmes();
                     break;
 
                 case 7:
                     System.out.println("Quiz cinematografico");
+                    quiz();
                     break;
 
                 case 0:
