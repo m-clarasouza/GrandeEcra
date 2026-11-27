@@ -1,12 +1,13 @@
 import BibliotecaFuncoes.MenuAdmin;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import static BibliotecaFuncoes.MenuAdmin.menuAdmin;
 import static BibliotecaFuncoes.MenuCliente.menuCliente;
 
 public class MenuInicial {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         Scanner input = new Scanner(System.in);
 
         int opcaoInicial;
@@ -19,8 +20,7 @@ public class MenuInicial {
             System.out.println("\n1 - ADMINISTRADOR");
             System.out.println("2 - CLIENTE");
             System.out.println("0 - SAIR");
-            System.out.println("O2" +
-                    "pção: ");
+            System.out.println("Opção: ");
             opcaoInicial = input.nextInt();
 
             switch (opcaoInicial){

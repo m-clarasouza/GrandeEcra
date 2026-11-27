@@ -1,11 +1,12 @@
 package BibliotecaFuncoes;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import static BibliotecaFuncoes.FuncoesCliente.*;
 
 public class MenuCliente {
-    public static void menuCliente() {
+    public static void menuCliente() throws FileNotFoundException {
         Scanner input = new Scanner(System.in);
         int opcaoCliente=0;
 
@@ -41,6 +42,7 @@ public class MenuCliente {
                 case 3:
                     System.out.println("Pesquisar filmes");
                     pesquisarFilmes();
+                    ficheirosMatriz();
                     break;
 
                 case 4:
@@ -74,5 +76,9 @@ public class MenuCliente {
         }while (opcaoCliente!=0);
 
     }
+
+    private static void ficheirosMatriz() {
+    }
+
 }
 
